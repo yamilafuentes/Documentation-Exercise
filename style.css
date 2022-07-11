@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0 3px 0 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  min-width: 290px;
+  color: #4d4e53;
+}
+
+code {
+  background-color: #f7f7f7;
+}
+
+#main-doc {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  width: 99.8%;
+  color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar header {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2%;
+  font-weight: 400;
+  color: black;
+}
+
+#navbar ul {
+  width: 100%;
+  overflow-y: scroll;
+  border-top: solid 2px;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-bottom: solid 2px;
+  color: #4d4e53;
+  height: 200px;
+}
+
+#navbar li {
+  font-weight: 100;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+  padding: 2% 0% 5px 4%;
+  color: #4d4e53;
+  cursor: pointer;
+  border-top: solid 1px;
+}
+
+#navbar a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.main header {
+  margin: 2% 0 2% 4%;
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: black;
+}
+
+.main article {
+  margin-left: 7%;
+}
+
+.main ul {
+  padding-left: 10%;
+  margin: 10px 0 10px 0;
+}
+
+code {
+  display: block;
+  padding: 2%;
+  margin: 2%;
+  background-color: #f7f7f7;
+}
+
+article {
+  text-align: justify;
+}
+
+#Reference header {
+  margin: 2% 0 2% 4%;
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: black;
+}
+
+@media (min-width: 700px) {
+
+  #main-doc {
+    flex-direction: row;
+  }
+
+  #navbar {
+    border-right: solid 3px;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+  }
+
+  #navbar header {
+    font-size: 1.8rem;
+    padding: 8%;
+  }
+
+  #navbar ul {
+    width: 100%;
+    overflow-y: scroll;
+    border-top: inherit;
+    border-left: inherit; 
+    border-bottom: inherit;
+    color: #4d4e53;
+    height: 85%;
+  }
+
+  #navbar li {
+    font-size: 1rem;
+    padding: 10px 30px;
+    
+  }
+
+  .main {
+    position: absolute;
+    left: 300px;
+    font-weight: 400;
+  }
+}
