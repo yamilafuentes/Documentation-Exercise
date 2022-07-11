@@ -2,7 +2,7 @@
 
 ## FreeCodeCamp Challenge for Responsive Web Design Certification
 
-Link: 
+Link: https://yamilafuentes.github.io/Documentation-Exercise/
 
 __Objective__: Build a Javascript technical documentation web page
 
